@@ -1,8 +1,9 @@
 div.top {
     height: 100vh;
-    width: 175vb;
-    background-image: url('../assets/Background-top.png');
+    width: 100vw;
+    background-image: url('../assets/Background-top.jpeg');
+    background-position: bottom center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
+    
 }
