@@ -22,7 +22,7 @@
     text-decoration: none;
     font-size: 18px;
     color: white;
-  }
+}
   
 .headerTopSection a:hover {
     color: black;
@@ -35,6 +35,10 @@
     color: yellow;
     font-size: small;
     padding-right: 36px;
+}
+
+.headerTopSection a.split:hover {
+    color: black;
 }
 
 .whatsappButton {
@@ -55,4 +59,60 @@
 header hr{
     margin: 0%;
     color: white;
+}
+
+.headerBottomSection {
+    overflow: hidden;
+    padding: 0px 10% 0px 8%;
+}
+
+.headerBottomSection a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+}
+
+.headerBottomSection .split {
+    float: right;
+}
+
+.headerBottomSection a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.middle {
+    padding: 60px 10% 5px 10%;
+}
+
+.middle h1 {
+    font-family: 'Staatliches';
+    font-size: 96px;
+    color: white;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.bottom {
+    padding: 20px 10% 5px 10%;
+    color: white;
+    font-size: 10px;
+}
+
+.bottom h5 {
+    font-family: 'Poppins';
+}
+
+.bottom .button {
+    background-color: yellow; 
+    display: inline-flex; 
+    padding: 20px 15px; 
+    color: purple; 
+    font-family: 'Poppins'; 
+    font-size: 18px; 
+    font-weight: bolder; 
+    border-radius: 15px;
 }
