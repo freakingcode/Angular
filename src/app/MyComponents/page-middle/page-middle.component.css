@@ -1,0 +1,57 @@
+.middle1 {
+    background-image: url('../../../assets/backgroundImage2.png');
+    background-position: 26px 138px;
+    background-repeat: no-repeat;
+    background-size: initial;
+    display: inline-flex;
+    justify-content: center;
+    padding: 40px 0px 175px 0px;
+}
+
+.element-middle1-bg {
+    
+}
+
+.element-middle1 {
+    background-image: url('../../../assets/Middle-bg.png');
+    background-repeat: no-repeat;
+    background-position: 200px 0px;
+    max-width: 80%;
+    width: 50%;
+    text-align: center;
+    flex: 1;
+}
+
+.element-middle1 img {
+    max-width: 80%;
+    height: auto;
+}
+
+.element-middle2 {
+    width: 50%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.element-middle2 h2 {
+    font-family: "Poppins", Sans-serif;
+    font-size: 42px;
+    font-weight: 900;
+    text-transform: none;
+    line-height: 1.2em;
+    color: #502072;
+    padding: 50px 15px;
+}
+
+.element-middle2-subelement {
+    padding: 0px 90px 0px 15px;
+}
+
+.element-middle2-subelement p {
+    color: grey;
+    font-size: 26px;
+}

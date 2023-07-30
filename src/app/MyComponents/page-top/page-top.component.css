@@ -126,8 +126,13 @@ header hr{
     text-decoration: underline;
 }
 
+.button:hover {
+    color: yellow;
+    background-color: #502072;
+}
+
 .middle {
-    padding: 60px 10% 5px 10%;
+    padding: 50px 10% 5px 10%;
 }
 
 .middle h1 {
@@ -144,11 +149,15 @@ header hr{
     font-size: 10px;
 }
 
+.bottom a {
+    text-decoration: none;
+}
+
 .bottom h5 {
     font-family: 'Poppins';
 }
 
-.bottom .button {
+.button {
     background-color: yellow; 
     display: inline-flex; 
     padding: 20px 15px; 
@@ -157,4 +166,8 @@ header hr{
     font-size: 18px; 
     font-weight: bolder; 
     border-radius: 15px;
+}
+
+.button h5 {
+    font-weight: bold;
 }
